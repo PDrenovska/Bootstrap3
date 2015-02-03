@@ -1,0 +1,120 @@
+/* Micro Clearfix Hack by Nicholas Gallagher (http://nicolasgallagher.com/micro-clearfix-hack/) */
+/* For modern browsers */
+.cf:before, .cf:after{content:"";display:table;}
+.cf:after{clear:both;}
+/* For IE 6/7 (trigger hasLayout) */
+.cf{zoom:1;}
+
+body {font-family: "Lato"; font-size: 14px;font-weight: 400;}
+a {color: inherit;}
+
+h2, h3 {font-family: "Fjalla One"; font-size: 21px; color: #202628; text-transform: uppercase;}
+h4 {border-top: 1px solid #e7e7e7; border-bottom: 1px solid #e7e7e7; font-size: 20px; color: #e84c3d; padding: 10px 0; margin: 0; line-height: 1; }
+h5 {font-weight: 700; font-size: 16px;color: #202628;line-height: 24px; }
+
+/* Main Navigation */
+.navbar {background: #202628;border-radius: 0;margin-bottom: 0;}
+.navbar-brand {font-family: "Fjalla One"; font-size: 25px; color: #e7e7e7;text-transform: uppercase;}
+
+.navbar-nav > li > a {font-family: "Fjalla One"; color: #e7e7e7; font-size: 13px;text-transform: uppercase;}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li > a.active {background-color: #e84c3d;}
+.header .navbar-toggle .icon-bar {background: #fff;}
+
+/* Carousel */
+.carousel-caption {color: #e7e7e7;font-family: "Fjalla One"; font-size: 20px; text-transform: uppercase;text-align: left;text-shadow: none;letter-spacing: .8px;padding-top: 0;padding-bottom: 10px;display: none;}
+	.carousel-caption p {margin-bottom: 0;}
+	.carousel-caption a {color: #e84c3d; font-size: 15px;text-transform: none;}
+
+	.carousel-handles {position: absolute;left: 15px;right: auto;width: 72px;height: 70px;bottom: 10%;}
+	.carousel-control {width: 34px;height: 70px;position: relative;display: inline-block;}
+	.carousel-control.left, .carousel-control.right {background: transparent;}
+	.carousel-control .handle-left, 
+	.carousel-control .handle-right {width: 34px;height: 70px;position: absolute;top: 0;z-index: 5;display: inline-block;}
+	.carousel-control .handle-left {background: url('../img/left.png');left: 0;right: auto;}
+	.carousel-control .handle-right {background: url('../img/right.png');right: 0;left: auto;}
+
+/* Features */
+#features {background: #e7e7e7;padding-top: 80px;padding-bottom: 80px;}
+#features .fa {width: 70px;height: 70px;border-radius: 35px;background: #e84c3d;color: #fff;font-size: 32px;text-align: center;line-height: 70px;}
+.media-body a {color: #e84c3d;}
+.media-heading {margin-bottom: 15px;}
+
+/* News */
+#news {padding-top: 80px;padding-bottom: 80px;}
+#news h2 {margin-top: 0;margin-bottom: 30px;}
+#news h5 {margin-top: 20px;}
+#news .img-circle {margin-top: 35px;}
+
+/* Bottom Navigation */
+.nav-pills.bottom {color: #545a5c;}
+.nav-pills.bottom a {color: #e7e7e7;}
+.nav-pills.bottom > li > a {display: inline-block;}
+.nav-pills.bottom > li:first-child > a {padding-left: 0;}
+.nav-pills.bottom > li > a:hover, .nav-pills.bottom > li > a:focus {background: transparent;}
+
+/* Buttons Red */
+.btn-red {background: #e84c3d;text-transform: uppercase;font-family: "Oswald"; color: #fff;border-radius: 19px;padding: 7px 19px;}
+
+/* Well */
+.well {background: #e84c3d;color: #fff;border-radius: 10px;border: none;padding: 40px 30px;margin-bottom: 0;}
+.well h3 {color: #fff;margin: 0;}
+.well .media .fa {font-size: 32px;color: #fff;width: 70px;height: 70px;border-radius: 35px;background: #202628;text-align: center;line-height: 70px;}
+.testimonial .media-body p {font-size: 16px;margin-top: 15px;}
+.testimonial .media-body p i {font-size: 14px;}
+
+/* Info */
+#info {padding-top: 60px;padding-bottom: 60px;}
+
+/* Form */
+.form-inline {margin-top: 25px;}
+.form-inline .form-control {width: 100%;}
+.form-control {border-radius: 20px;border: none;font-style: italic;width: 100%;padding: 10px 15px;height: 40px;box-shadow: none;}
+.form-control:focus {box-shadow: none;}
+textarea.form-control {border-radius: 10px;resize:none;}
+.btn.submit {border-radius: 20px;background: #202628;text-transform: uppercase;font-size: 15px;color: #fff;font-family: "Fjalla One";border:none;padding-left: 20px;padding-right: 20px;height: 40px;margin-top: 15px;}
+.btn.submit.red {background: #e84c3d;}
+.btn.submit.red i {margin-left: 16px;}
+.contact-form {background: #e7e7e7;border-radius: 5px;padding: 34px 30px;}
+.contact-form > p {color: #767c7e;line-height: 24px;margin-bottom: 18px;}
+.contact-form .form-group {margin-bottom: 20px;}
+
+/* Contact */
+.media.contact, .media.user {border-top: 1px solid #e7e7e7;padding-top: 25px;padding-bottom: 25px;margin-top: 0;}
+.media.contact:last-of-type, .media.user:last-of-type {border-bottom: 1px solid #e7e7e7;}
+.media.contact .fa {font-size: 30px;color: #202628;}
+.contact .media-heading {font-weight: 900;color: #e84c3d;text-transform: none;font-family: "Lato";margin-bottom:2px;}
+.contact .media-body p, .user .media-body p {color: #767c7e;line-height: 24px;margin-bottom: 0;}
+.contact .media-left, .user .media-left {padding-right: 26px;}
+
+/* Footer */
+.footer {background: #202628;padding: 70px 0;}
+
+.copy {color: #767c7e;}
+.copy span {color: #e84c3d;}
+
+/* Social Navigation */
+.social a {background: #e84c3d;color: #fff;width: 43px;height: 43px;}
+.nav-pills.social > li {margin: 0 5px;}
+.nav-pills.social > li > a {border-radius: 22px;font-size: 20px;}
+.nav-pills.social > li > a:hover, .nav-pills.social > li > a:focus {color: #e84c3d;}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.carousel-caption {display: block;}
+	.carousel-handles {bottom: 50%;left: 20%;}
+	.btn.submit {margin-top: 0;}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.carousel-caption {font-size: 24px;}
+	#news .img-circle {margin-top: 0px;}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.carousel-caption {font-size: 31px;padding-bottom: 20px;}
+	.carousel-handles {}
+}
